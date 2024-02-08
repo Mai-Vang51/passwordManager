@@ -1,5 +1,5 @@
 """
-User module that initialises a user's username and password.
+User class that initialises a user's username and password.
 """
 
 
