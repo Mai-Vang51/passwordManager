@@ -7,8 +7,31 @@ import user_collection
 import string
 import random
 
+MENU = "(R)egister\n(L)ogin\n(Q)uit"
+
 
 def main():
+    """Run the main program simulating a user authentication environment and a password."""
+
+    users = user_collection.UserCollection
+    choice = input(">>>").upper()
+    while choice != "Q":
+        if choice == "R":
+            handle_register()
+        elif choice == "L":
+            handle_login()
+        else:
+            print("Invalid input. Try again.")
+        choice = input(">>>").upper()
+
+
+def handle_register():
+    """Register a new user and their password"""
+    pass
+
+
+def handle_login():
+    """Log user into the system."""
     pass
 
 
