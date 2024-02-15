@@ -35,6 +35,10 @@ def handle_login():
     """Log user into the system."""
     pass
 
+def get_password():
+    if len(choice) < 8 or len(choice) > 20:
+
+
 
 def generate_random_password():
     # Define character sets
